@@ -1,0 +1,46 @@
+.hall{
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .hall__below{
+
+        border: 3px solid black;
+        padding: 16px 52px;
+        display: inline-block;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        a{
+            display: block;
+            text-decoration: none;
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            color: rgb(0, 0, 0);
+            border: 2.7px solid black;
+            border-radius: 3%;
+            background: rgb(195, 195, 195);
+            margin: auto;
+            margin-bottom: 30px;
+            width: 165px;
+        }
+
+        a:hover{
+            background: rgb(173, 168, 168);
+        }
+    
+        a:active{
+            background: rgb(145, 140, 140);
+        }
+
+        h1{
+            text-align: center;
+            font-size: 37px;
+            margin-bottom: 36px;
+        }
+    }
+}

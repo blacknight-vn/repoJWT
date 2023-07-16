@@ -1,0 +1,57 @@
+.admin{
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+
+    .title{
+        font-size: 50px;
+        letter-spacing: 0.6px;
+        text-align: center;
+        position: relative;
+    }
+
+    .title:after {
+        background-color: #272728;
+        bottom: -6px;
+        content: "";
+        display: block;
+        left: 40.8%;
+        height: 5px;
+        width: 260px;
+        position: absolute;
+      }
+
+    .allUser{
+
+        .user{
+
+            div {
+                h1{
+                    font-size: 27px;
+                    margin: 13px 0;
+                }
+
+                h2{
+                    font-size: 19px;
+                    margin: 8px 0;
+                }
+            }
+
+            .index{
+                margin: 0;
+                width: 115.5px;
+                font-size: 58px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            display: flex;
+            justify-content: space-between;
+            border: 1.6px solid black;
+            margin-bottom: 10px;
+            padding: 7px;
+        }
+
+    }
+}

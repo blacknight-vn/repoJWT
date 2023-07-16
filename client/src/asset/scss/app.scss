@@ -1,0 +1,31 @@
+.app {
+    .nav {
+        background: rgb(158, 156, 156);
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        a:not(.active):hover{
+            background: rgb(200, 200, 200);
+        }
+
+        a:last-child{
+            float: right;
+        }
+
+        .active{
+            background: rgb(99, 100, 99);
+        }
+    }
+
+    .nav:after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
